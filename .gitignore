@@ -1,0 +1,53 @@
+# Python stuff
+# ------------------------------------------------------------------------------
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Local development
+# ------------------------------------------------------------------------------
+
+
+# Pycharm stuff
+.idea
+
+# pipenv: https://github.com/kennethreitz/pipenv
+/Pipfile
+
+# dotenv
+.env*
+
+# Tests
+.coverage
+coverage.*
+
+# Django stuff
+# ------------------------------------------------------------------------------
+
+# Translations
+*.mo
+*.pot
+
+# Local database
+*db.sqlite3
